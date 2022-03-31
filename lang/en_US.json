@@ -1,0 +1,14 @@
+{
+"spawnmessage": "Im spawned",
+"commandposmessage": "Im on",
+"deathmessage": "Im death, respawn",
+"commandstopmessage": "Anti-Afk mode off",
+"commandstartmessage": "Anti-aft mode on",
+"consoledeathmessage": "Bot death",
+"consolespawnmessage": "Bot spawned",
+"consoleauthmessage": "Bot logged in",
+"consolestartmessage": "Starting...",
+"consoleloginmessage": "The bot has joined the server",
+"botkickmessage": "The bot was kicked from the server",
+"consolebotlistlogin": "Bots (${bots.length} / ${accounts.length}) successfully logged in."
+}

@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "2.0",
+  "description": "",
+  "main": "bot.js",
+  "engines": {
+    "node": "^14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "_Jodex__",
+  "license": "ISC",
+  "dependencies": {
+    "exit": "^0.1.2",
+    "fs": "^0.0.1-security",
+    "mineflayer": "^4.2.0",
+    "vec3": "^0.1.7"
+  }
+}

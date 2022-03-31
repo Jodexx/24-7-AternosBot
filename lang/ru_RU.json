@@ -1,0 +1,14 @@
+{
+"spawnmessage": "Я заспавнился",
+"commandposmessage": "Я на",
+"deathmessage": "Я умер,респавн",
+"commandstopmessage": "Анти-Афк режим выключен",
+"commandstartmessage": "Анти-Афк режим включён",
+"consoledeathmessage": "Бот умер",
+"consolespawnmessage": "Бот заспавнился",
+"consoleauthmessage": "Бот авторизовался",
+"consolestartmessage": "Запуск...",
+"consoleloginmessage": "Бот присоединился к серверу",
+"botkickmessage": "Бот был кикнут из сервера",
+"consolebotlistlogin": "Боты (${bots.length} / ${accounts.length}) успешно присоединились."
+}
