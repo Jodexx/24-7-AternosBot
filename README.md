@@ -29,7 +29,7 @@
 Запустить файл start.bat
 Если не работает, запускать в косноли:
 ```
-npm install mineflayer async mathjs vec3 fs
+npm install mineflayer util fs
 node .
 ```
 
