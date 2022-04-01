@@ -1,4 +1,4 @@
-# 24/7 AternosBot 3.0
+# 24/7 AternosBot 4.0
 
 
 Данный бот сделан для хостинга aternos. Он не позволяет выключится серверу.
@@ -29,7 +29,7 @@
 Запустить файл start.bat
 Если не работает, запускать в косноли:
 ```
-npm install mineflayer util fs
+npm install mineflayer fs util wait-until
 node .
 ```
 

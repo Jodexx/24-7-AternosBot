@@ -1,3 +1,3 @@
 color 3
-npm install mineflayer fs && start %cd%\bot.bat
+npm install mineflayer fs util wait-until && start %cd%\bot.bat
 exit

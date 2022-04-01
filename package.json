@@ -1,6 +1,6 @@
 {
   "name": "bot",
-  "version": "2.0",
+  "version": "4.0",
   "description": "",
   "main": "bot.js",
   "engines": {
@@ -16,6 +16,9 @@
     "exit": "^0.1.2",
     "fs": "^0.0.1-security",
     "mineflayer": "^4.2.0",
-    "vec3": "^0.1.7"
+    "prismarine-viewer": "^1.22.0",
+    "util": "^0.12.4",
+    "vec3": "^0.1.7",
+    "wait-until": "^0.0.2"
   }
 }
