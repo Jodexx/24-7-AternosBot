@@ -1,0 +1,19 @@
+{
+"spawnmessage": "Я заспавнився",
+"commandposmessage": "Я на",
+"deathmessage": "Я вмер,респавнюсь",
+"commandstopmessage": "Анти-Афк режим вимкнено",
+"commandstartmessage": "Анти-Афк режим увімкнено",
+"consolebot": "Бот",
+"consoledeathmessage": "Бот вмер",
+"consolespawnmessage": "Бот заспавнився",
+"consoleauthmessage": "Бот авторизувався",
+"consolestartmessage": "Запуск...",
+"consoleloginmessage": "Бот приєднався до сервера",
+"botkickmessage": "Бот був кікнутий з сервера",
+"consolebotlistlogin1": "Боти",
+"consolebotlistlogin2": "успішно приєдналися.",
+"consolebotendreconnect": "Бот завершився, спроба підключитися знову...",
+"consolebotendreconnecterror": "Помилка:",
+"consolebotendreconnecterrorattempt": "Результат спроби підключення був: "
+}
