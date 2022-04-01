@@ -35,7 +35,7 @@ const consolebotendreconnecterrorattempt = lang["consolebotendreconnecterroratte
 const consolebot = lang["consolebot"];
 
 console.log('Thank you for using the bot from JodexIndustries');
-console.log('Aternos Bot 24/7 4.0');
+console.log('Aternos Bot 24/7 4.1');
 console.log('\x1b[32m');
 console.log(consolestartmessage,'\x1b[0m');
 
