@@ -1,5 +1,7 @@
 # 24/7 AternosBot 4.1
 
+[![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/DP376QcGCJ)
+
 | <sub>EN</sub> [English](README.md) | <sub>RU</sub> [русский](README_RU.md) |
 |-------------------------|----------------------------|
 
