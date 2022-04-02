@@ -27,6 +27,7 @@
  * Авто реконект
 
 ## Использование
+Сначало установите nodejs >= 14 из [nodejs.org](https://nodejs.org/)
 
 Для Linux:
 Запустить install.sh , потом bot.sh
