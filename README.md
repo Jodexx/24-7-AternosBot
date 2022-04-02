@@ -26,8 +26,13 @@
 
 ## Использование
 
-Запустить файл start.bat
-Если не работает, запускать в косноли:
+Для Linux:
+Запустить install.sh , потом bot.sh
+
+Для Windows
+Запустить start.bat (установка пакетов и запуск bot.bat)
+
+Если не работает через .sh .bat, написать в терминале:
 ```
 npm install mineflayer fs util wait-until
 node .
