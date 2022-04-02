@@ -5,7 +5,7 @@
 | <sub>EN</sub> [English](README.md) | <sub>RU</sub> [русский](README_RU.md) |
 |-------------------------|----------------------------|
 
-Данный бот сделан для хостинга Aternos. Он не позволяет выключится серверу.
+This bot is made for Aternos hosting. It does not allow the server to shut down.
 
 ## OS
 
@@ -13,39 +13,39 @@
  * Linux
  * Mac
 
-## NodeJS Версия
+## NodeJS Version
 
-Версия: 14^
+Version: 14^
 
-## Функции
+## Function
 
- * Поддержка Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17 и 1.18.
- * Анти афк
- * Управление через чат
- * [Настраиваемый конфиг](config.json)
- * [Настраиваемые файлы перевода](lang)
- * [Мультиаккаунт](accounts.txt) 
- * Авто респавн
- * Авто реконект
+ * Support Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17 и 1.18.
+ * Anti Afk
+ * Chat management 
+ * [Custom config](config.json)
+ * [Custom translation files](lang)
+ * [Multi-Accounts](accounts.txt) 
+ * Auto respawn
+ * Auto reconnect
 
-## Использование
-Сначала установите nodejs >= 14 из [nodejs.org](https://nodejs.org/)
+## Use
+First install nodejs >= 14 of [nodejs.org](https://nodejs.org/)
 
-Для Linux:
-Запустить install.sh , потом bot.sh
+For Linux:
+Run install.sh , then bot.sh
 
-Для Windows
-Запустить start.bat (установка пакетов и запуск bot.bat)
+For Windows
+Run start.bat (install packages and run bot.bat)
 
-Если не работает через .sh .bat, написать в терминале:
+If it does not work through .sh .bat, write in the terminal:
 ```
 npm install mineflayer fs util wait-until
 node .
 ```
 
 
-### Управление через чат
+### Chat management
 
- * ;start - включить анти афк
- * ;stop - выключить анти афк
- * ;pos - посмотреть координаты
+ * ;start - enable anti afk
+ * ;stop - turn off anti afk
+ * ;pos - see coordinates
