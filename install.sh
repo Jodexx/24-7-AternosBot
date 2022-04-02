@@ -1,0 +1,1 @@
+npm install mineflayer fs util wait-until
