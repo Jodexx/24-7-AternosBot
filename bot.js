@@ -82,12 +82,14 @@ function makeBot ([_u, _p], ix) {
           function sayPosition (username) {
             bot.chat(commandposmessage + ` ${bot.entity.position}`);
           }
-          console.log(`[Chat] <${username}> ${message}`);
+          console.log(`[Chat` + ` ` + _u + `] <${username}> ${message}`);
         });
-        bot.on('spawn', function() {
-          bot.chat(spawnmessage);
+        bot.once('spawn', function() {
           console.log('\x1b[36m');
           console.log(consolebot + ' ' + _u + ' ' +  consolespawnmessage,'\x1b[0m');
+          bot.chat(spawnmessage);
+        });
+        bot.on('spawn', function() {
           bot.setControlState('forward', true);
           bot.setControlState('jump', true);
           bot.setControlState('sprint', true);
