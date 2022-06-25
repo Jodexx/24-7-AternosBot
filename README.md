@@ -19,7 +19,7 @@ Version: 14^
 
 ## Function
 
- * Support Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17 и 1.18.
+ * Support Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17 and 1.18.
  * Anti Afk
  * Chat management 
  * [Custom config](config.json)
