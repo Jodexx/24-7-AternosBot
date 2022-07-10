@@ -2,12 +2,13 @@ const mineflayer = require('mineflayer');
 const fs = require('fs');
 const util = require('util');
 const waitUntil = require('wait-until');
+const yaml = require('js-yaml');
 
-let rawdata = fs.readFileSync('config.json');
-let data = JSON.parse(rawdata);
+let rawdata = fs.readFileSync('config.yaml', 'utf8');
+let data = yaml.load(rawdata);
 const language = data["language"];
-let rawlang = fs.readFileSync('./lang/'+ language +'.json');
-let lang = JSON.parse(rawlang);
+let rawlang = fs.readFileSync('./lang/'+ language +'.yaml');
+let lang = yaml.load(rawlang);
 const readFile = (fileName) => util.promisify(fs.readFile)(fileName, 'utf8')
 
 const host = data["ip"];
@@ -82,14 +83,12 @@ function makeBot ([_u, _p], ix) {
           function sayPosition (username) {
             bot.chat(commandposmessage + ` ${bot.entity.position}`);
           }
-          console.log(`[Chat` + ` ` + _u + `] <${username}> ${message}`);
-        });
-        bot.once('spawn', function() {
-          console.log('\x1b[36m');
-          console.log(consolebot + ' ' + _u + ' ' +  consolespawnmessage,'\x1b[0m');
-          bot.chat(spawnmessage);
+          console.log(`[Chat] <${username}> ${message}`);
         });
         bot.on('spawn', function() {
+          bot.chat(spawnmessage);
+          console.log('\x1b[36m');
+          console.log(consolebot + ' ' + _u + ' ' +  consolespawnmessage,'\x1b[0m');
           bot.setControlState('forward', true);
           bot.setControlState('jump', true);
           bot.setControlState('sprint', true);

@@ -1,9 +1,9 @@
-# 24/7 AternosBot 4.1
+# 24/7 AternosBot 4.2
 
 [![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/DP376QcGCJ)
 
 | <sub>EN</sub> [English](README.md) | <sub>RU</sub> [русский](README_RU.md) |
-|-------------------------|----------------------------|
+|------------------------------------|---------------------------------------|
 
 Данный бот сделан для хостинга Aternos. Он не позволяет выключится серверу.
 
@@ -13,7 +13,7 @@
  * Linux
  * Mac
 
-## NodeJS Версия
+## Версия NodeJS
 
 Версия: 14^
 
@@ -22,7 +22,7 @@
  * Поддержка Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17 и 1.18.
  * Анти афк
  * Управление через чат
- * [Настраиваемый конфиг](config.json)
+ * [Настраиваемый конфиг](config.yaml)
  * [Настраиваемые файлы перевода](lang)
  * [Мультиаккаунт](accounts.txt) 
  * Авто респавн
@@ -39,7 +39,7 @@
 
 Если не работает через .sh .bat, написать в терминале:
 ```
-npm install mineflayer fs util wait-until
+npm install mineflayer fs util wait-until js-yaml
 node .
 ```
 

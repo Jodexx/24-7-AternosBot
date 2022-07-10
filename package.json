@@ -1,6 +1,6 @@
 {
   "name": "bot",
-  "version": "4.0",
+  "version": "4.2",
   "description": "",
   "main": "bot.js",
   "engines": {
@@ -15,7 +15,9 @@
   "dependencies": {
     "exit": "^0.1.2",
     "fs": "^0.0.1-security",
-    "mineflayer": "^4.2.0",
+    "js-yaml": "^4.1.0",
+    "mineflayer": "^4.3.0",
+    "node-yaml-config": "^1.0.0",
     "prismarine-viewer": "^1.22.0",
     "util": "^0.12.4",
     "vec3": "^0.1.7",
