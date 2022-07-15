@@ -8,12 +8,44 @@ const pause = require('node-pause');
 
 if(!fs.existsSync("config.yaml")) {
   console.log("File config.yaml not found, downloading...");
+  fs.mkdirSync("lang");
+  axios.get('http://aternosbot.jodexworld.xyz/lang/en_US.yaml', {responseType: "stream"} )
+  .then(response => {
+    response.data.pipe(fs.createWriteStream("lang/en_US.yaml"));
+    console.log("en_US.yaml successfully downloaded");
+  })
+  .catch(error => {
+    console.log(error);
+  });
+  axios.get('http://aternosbot.jodexworld.xyz/lang/ru_RU.yaml', {responseType: "stream"} )
+  .then(response => {
+    response.data.pipe(fs.createWriteStream("lang/ru_RU.yaml"));
+    console.log("ru_RU.yaml successfully downloaded");
+  })
+  .catch(error => {
+    console.log(error);
+  });
+  axios.get('http://aternosbot.jodexworld.xyz/lang/de_DE.yaml', {responseType: "stream"} )
+  .then(response => {
+    response.data.pipe(fs.createWriteStream("lang/de_DE.yaml"));
+    console.log("de_DE.yaml successfully downloaded");
+  })
+  .catch(error => {
+    console.log(error);
+  });
+  axios.get('http://aternosbot.jodexworld.xyz/lang/uk_UA.yaml', {responseType: "stream"} )
+  .then(response => {
+    response.data.pipe(fs.createWriteStream("lang/uk_UA.yaml"));
+    console.log("uk_UA.yaml successfully downloaded");
+  })
+  .catch(error => {
+    console.log(error);
+  });
   axios.get('http://aternosbot.jodexworld.xyz/config.yaml', {responseType: "stream"} )
       .then(response => {
         response.data.pipe(fs.createWriteStream("config.yaml"));
         console.log("config.yaml successfully downloaded");
-        console.log("Run the script again")
-        pause();
+        pause("Run the script again");
       })
       .catch(error => {
         console.log(error);
@@ -27,18 +59,8 @@ if(!fs.existsSync("config.yaml")) {
     const language = data["language"];
     if (!fs.existsSync('./lang/' + language + '.yaml')) {
         console.log("File " + language + " not found");
-        axios.get("http://aternosbot.jodexworld.xyz/lang/" + language + ".yaml", {responseType: "stream"} )
-            .then(response => {
-                fs.mkdirSync("lang");
-                response.data.pipe(fs.createWriteStream("./lang/" + language + ".yaml"));
-                console.log( language + ".yaml successfully downloaded");
-                console.log("Run the script again")
-                pause();
-            })
-            .catch(error => {
-                console.log(error);
-            });
-    }
+        pause();
+    } else {
     let rawlang = fs.readFileSync('./lang/' + language + '.yaml');
     let lang = yaml.load(rawlang);
     const readFile = (fileName) => util.promisify(fs.readFile)(fileName, 'utf8')
@@ -171,4 +193,5 @@ if(!fs.existsSync("config.yaml")) {
     }
 
     main()
+}
 }
