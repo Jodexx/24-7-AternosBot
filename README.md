@@ -2,7 +2,7 @@
 
 [![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/DP376QcGCJ)
 <div align="center">
-    <a href="https://github.com/Voxelhax/OpenBukloit/releases/latest"><img alt="Download" src="https://img.shields.io/badge/-DOWNLOAD_LATEST_RELEASE_(CLICK)-blue?style=for-the-badge"/></a>
+    <a href="https://github.com/JodexIndustries/24-7-AternosBot/releases/latest"><img alt="Download" src="https://img.shields.io/badge/-DOWNLOAD_LATEST_RELEASE_(CLICK)-blue?style=for-the-badge"/></a>
 </div>
 
 | <sub>EN</sub> [English](README.md) | <sub>RU</sub> [русский](README_RU.md) |
