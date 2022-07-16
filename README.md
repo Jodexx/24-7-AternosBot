@@ -1,6 +1,6 @@
 # 24/7 AternosBot 4.2
 
-[[![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/DP376QcGCJ)](https://img.shields.io/discord/860809265689788447?label=discord)
+<img alt="Discord" src="https://img.shields.io/discord/860809265689788447?label=discord">
 <a href="https://github.com/JodexIndustries/24-7-AternosBot/releases/latest"><img alt="GitHub downloads" src="https://img.shields.io/github/downloads/JodexIndustries/24-7-AternosBot/total"></a>
 <div align="center">
     <a href="https://github.com/JodexIndustries/24-7-AternosBot/releases/latest"><img alt="Download" src="https://img.shields.io/badge/-DOWNLOAD_LATEST_RELEASE_(CLICK)-blue?style=for-the-badge"/></a>
