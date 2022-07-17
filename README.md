@@ -3,7 +3,7 @@
 <img alt="Discord" src="https://img.shields.io/discord/860809265689788447?label=discord&logo=Discord"> [<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/JodexIndustries/24-7-AternosBot/total">](https://img.shields.io/github/downloads/JodexIndustries/24-7-AternosBot/total)
 
 <div align="center">
-    <a href="https://github.com/JodexIndustries/24-7-AternosBot/releases/latest"><img alt="Скачать" src="https://img.shields.io/badge/-СКАЧАТЬ_ПОСЛЕДНИЙ_РЕЛИЗ_(КЛИК)-blue?style=for-the-badge"/></a>
+    <a href="https://github.com/JodexIndustries/24-7-AternosBot/releases/latest"><img alt="Download" src="https://img.shields.io/badge/-DOWNLOAD_LATEST_RELEASE_(CLICK)-blue?style=for-the-badge"/></a>
 </div>
 
 | <sub>EN</sub> [English](README.md) | <sub>RU</sub> [русский](README_RU.md) |
