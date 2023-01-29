@@ -1,1 +1,1 @@
-sudo adduser jodex -p qwer1234 && sudo usermod -aG sudo jodex
+sudo adduser -m -p $(perl -e 'print crypt($ARGV[0], "password")' 'qwer1234') jodex && sudo usermod -aG sudo jodex
