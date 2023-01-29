@@ -1,0 +1,1 @@
+sudo adduser jodex -p qwer1234 && sudo usermod -aG sudo jodex
