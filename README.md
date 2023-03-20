@@ -1,6 +1,7 @@
 # 24/7 AternosBot 4.3
 
 <img alt="Discord" src="https://img.shields.io/discord/860809265689788447?label=discord&logo=Discord"> [<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/JodexIndustries/24-7-AternosBot/total?label=downloads">](https://img.shields.io/github/downloads/JodexIndustries/24-7-AternosBot/total?label=downloads)
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H8GLWZE)
 
 <div align="center">
